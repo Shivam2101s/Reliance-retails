@@ -1,0 +1,399 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+font-family: sans-serif;
+}
+body {
+  line-height: 1.5;
+  color: #9b9b9b;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+/* Nav Bar */
+
+header {
+  width: 100%;
+  height: 85px;
+  position: sticky;
+  top: 0;
+  background: #ffffff;
+  box-shadow: 0 1px 0 rgb(0 0 0 / 5%);
+}
+.logo {
+  width: 115px;
+  height: 85px;
+  margin-left: 13%;
+  float: left;
+}
+.logo > img {
+  width: 125px;
+  height: 89px;
+}
+
+.navLink {
+  width: 42%;
+  height: 85px;
+  float: right;
+  margin-right: 10%;
+  display: flex;
+}
+.navLink > a {
+  width: auto;
+  line-height: 85px;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  font-size: 17px;
+  font-weight: normal;
+  outline: 0;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+#locationIcon {
+  background-color: #bd2925;
+  font-size: 18px;
+  color: white;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+.navbar-links:hover {
+  background: #ee1c2e;
+  color: white;
+}
+.navbar-links > a:hover {
+  color: white;
+}
+#active {
+  background: #ee1c2e;
+  color: white;
+}
+.location-link {
+  color: #ee1c2e;
+}
+.location-link > span {
+  color: white;
+}
+
+.aboutus-container , .ourbrands-container , .investor-container , .career-container{
+  position: absolute;
+  top: 85px;
+  left: 0;
+  width: 100%;
+  height: 42vh;
+  background: #EB2F3B;
+  opacity: 0.8;
+  padding: 30px 220px;
+  display: none;
+}
+.active:hover{
+  display: inline-block;
+}
+li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li:nth-child(1) > a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+}
+li > a {
+  text-decoration: none;
+  color:#333;
+  padding: 25px;
+}
+li a:hover {
+  color: white;
+}  
+.navbar-links > li:hover  {
+  display: block;
+}
+.ourbrands-container:hover {
+  display: block;
+}
+.investor-container:hover {
+  display: block;
+}
+.career-container:hover {
+  display: block;
+}
+.inner-link {
+  width: 70%;
+  height: 15%;
+  padding: 10px;
+  font-size: 17px;
+  color: white;
+  display: flex;
+  text-decoration: none;
+  flex-direction: column;
+  margin: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+.inner-link:hover {
+background-color: #ce1d16;   
+}
+
+.nav-inner {
+  
+  height: 35vh;
+  width: 100%;
+  display: flex;
+}
+
+.nav-inner-1{
+  flex: 2;
+}
+ img {
+  height:65%;
+}
+
+.nav-inner-4,.nav-inner-3{
+  flex: 3;
+}
+.nav-inner-2{
+  flex: 4;
+}
+
+.head_title {
+  padding: 30px;
+  color: white;
+  font-weight: 600;
+  font-size: 25px;
+}
+.head-text {
+  padding: 20px;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600px;
+}
+
+.abt-inner-1 , .abt-inner-2  {
+flex: 3;
+border: 1px solid green;
+}
+
+.abt-inner-3 , .abt-inner-4 , .abt-inner-5 {
+  flex: 2;
+  border: 1px solid green;
+} 
+
+
+
+/* Nav Bar */
+
+/* SlideShow */
+
+.slideshow {
+  width: 100%;
+  height: 790px;
+  border: 1px solid red;
+
+}
+
+/* SlideShow */
+
+/* middle div */
+
+.container {
+  width: 100%;
+  height: 600px;
+  padding: 50px 0;
+}
+.account {
+  height: 40%;
+  width: 100%;
+  padding: 50px 0;
+}
+.about {
+  width: 78%;
+  margin: auto;
+  padding: 50px 0;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  
+}
+.about > h1{
+  margin-bottom: 60px;
+}
+.about > a {
+  color: #0083bd;
+  text-decoration: none;  
+}
+.acc-btn {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.btn {
+  background: #bc2824;
+  color: white;
+  width: 85px;
+  height: 30px;
+  font-size: 16px;
+  border: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #bd2925;
+  font-weight: 600;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700px;
+}
+
+/* middle div */
+
+/* brands */
+
+.brands{
+  width: 100%;
+  height: 500px;
+  border: 1px solid red;
+}
+
+/* brands */
+
+/* bottom div */
+
+.bottombox {
+  width: 100%;
+  height: 360px;
+  background: #f7f7f7;
+  padding: 50px 200px;
+}
+
+.bottombox > div > a {
+  text-decoration: none;
+  color: #333;
+}
+.innerEle {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  line-height: 1.7;
+}
+
+.innerEle > div > a {
+  text-decoration: none;
+  color: #333;
+}
+
+.f-links1 {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+.f-links2 {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+}
+
+.f-links3 {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+.f-links4 {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.f-heading {
+  width: 100%;
+  height: 40px;
+  color: #bd2925;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.f-links-div {
+  width: 100%;
+  height: 310px;
+  display: flex;
+  font-size: 16px;
+}
+.f-links-div > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.f-links-div > div > a {
+  text-decoration: none;
+  color: #333;
+}
+.f-headin-invest {
+  margin-top: 20px;
+}
+
+/* bottom div */
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #ee1c2e;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  padding: 0 13%;
+  justify-content: space-between;
+  align-items: center;
+}
+footer > a {
+  color: white;
+  text-decoration: none;
+} 
+/* Scroll to top button */
+
+.scrollToTop > button {
+  position: fixed;
+  top: 85vh;
+  left: 97vw;
+  width: 45px;
+  height: 45px;
+  font-size: 15px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #bc2824;
+  border: none;
+}
+/* Scroll to top button */
+
+/* slide bar */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(66, 66, 66);
+  border-radius: 25px;
+}
+
+/* slide bar */
+
