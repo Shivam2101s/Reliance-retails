@@ -89,10 +89,14 @@ header {
   left: 0;
   width: 100%;
   height: 42vh;
-  background: #EB2F3B;
-  opacity: 0.8;
+  background: #ee1c2e;
+  opacity: 0.9;
   padding: 30px 220px;
   display: none;
+  
+}
+#inv-con {
+  height: 35vh;
 }
 .active:hover{
   display: inline-block;
@@ -129,10 +133,10 @@ li a:hover {
   display: block;
 }
 .inner-link {
-  width: 70%;
-  height: 15%;
+  width: auto;
+  height: auto;
   padding: 10px;
-  font-size: 17px;
+  font-size: 16px;
   color: white;
   display: flex;
   text-decoration: none;
@@ -143,7 +147,7 @@ li a:hover {
 }
 
 .inner-link:hover {
-background-color: #ce1d16;   
+background-color: #B9101F;   
 }
 
 .nav-inner {
@@ -156,8 +160,9 @@ background-color: #ce1d16;
 .nav-inner-1{
   flex: 2;
 }
- img {
+.nav-img {
   height:65%;
+  opacity: none;
 }
 
 .nav-inner-4,.nav-inner-3{
@@ -182,18 +187,46 @@ background-color: #ce1d16;
   font-weight: 600px;
 }
 
+
 .abt-inner-1 , .abt-inner-2  {
 flex: 3;
-border: 1px solid green;
+
 }
 
 .abt-inner-3 , .abt-inner-4 , .abt-inner-5 {
   flex: 2;
-  border: 1px solid green;
 } 
 
+.inv-box {
+  height: 30vh;
+  width: 80%;
+  display: flex;
+}
 
-
+.inv-inner-1 , .inv-inner-3 {
+  flex:3;
+}
+.inv-inner-2 {
+  flex: 5;
+}
+.inv-img {
+  width: 100%;
+  height: 70%;
+}
+.inv-head {
+  padding: 40px;
+  color: white;
+  font-weight: 600;
+  font-size: 25px;
+}
+.inv-text {
+  padding: 40px;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600px;
+}
 /* Nav Bar */
 
 /* SlideShow */
@@ -202,6 +235,7 @@ border: 1px solid green;
   width: 100%;
   height: 790px;
   border: 1px solid red;
+  background: url('https://relianceretail.com/img/banner/bs2.jpg');
 
 }
 
@@ -267,10 +301,11 @@ border: 1px solid green;
 
 /* brands */
 
-.brands{
+.brands-box{
   width: 100%;
   height: 500px;
   border: 1px solid red;
+  padding: 3% 13%;
 }
 
 /* brands */
