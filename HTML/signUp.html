@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reliance Retail</title>
+    <link
+    rel="icon"
+    href="/Images/kisspng-jamnagar-naroda-reliance-industries-reliance-petro-5aed662416c204.1222506815255076200932.png"
+    type="image/icon type"
+  />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/CSS/signUp.css">
+  </head>
+  <body>
+   
+
+    <header>
+      <div id="top_header">
+        <div id="logo" onclick="goToHome()">
+          <img src="https://relianceretail.com/img/logo.png" />
+        </div>
+
+        <div id="home_button">
+          <a href="/RelianceLandingPage.html" class="home">Home</a>
+        </div>
+      </div>
+    </header>
+
+    <div id="container">
+      <h3 class="heading">Mobile Number Linked Loyalty Account</h3>
+      <hr />
+
+      <form id="detail">
+        <div>
+          <!-- input focus written in style is used to heightlight border when the input box is clicked -->
+          <input
+            type="text"
+            autofocus
+            placeholder="MOBILE NUMBER"
+            maxlength="10"
+            id="mobileNumber"
+            size="40"
+          />
+        </div>
+        <div>
+          <input type="text" autofocus placeholder="CITY" id="city" size="40" />
+        </div>
+        <div>
+          <input type="submit" value="SUBMIT" id="submit" size="40" />
+        </div>
+      </form>
+    </div>
+
+    <div id="displayError">
+      
+    </div>
+
+    <footer>
+      <div>© Reliance Retail. All rights reserved.</div>
+      <a href="javascript:void(0)">Privacy Policy</a>
+    </footer>
+    <script src="../JavaScript/signUp.js"></script>
+  </body>
+</html>
