@@ -41,13 +41,13 @@
   justify-content: center;
   align-items: center;
   background-color: #004685;
-} 
+}
 .buttons > div > a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 .buttons > div:hover {
-    box-shadow: 2px 2px 2px gray;
+  box-shadow: 2px 2px 2px gray;
 }
 .coupon {
   flex: 5;
@@ -58,9 +58,9 @@
 .icon-links {
   flex: 2;
 }
-.icons-circle{
-    background: white;
-    padding: 3px;
-    border-radius: 50%;
-    color: #004685;
+.icons-circle {
+  background: white;
+  padding: 3px;
+  border-radius: 50%;
+  color: #004685;
 }

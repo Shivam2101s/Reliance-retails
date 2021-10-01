@@ -1,3 +1,3 @@
 function goToHome() {
-    window.location.assign("../RelianceLandingPage.html");
-  }
+  window.location.assign("../RelianceLandingPage.html");
+}
