@@ -9,6 +9,8 @@ Link to visit site:- https://relianceretailclone.netlify.app
 <img src="https://imgdb.in/j4Kk.jpg" width="100%" height="auto" />
 <img src="https://imgdb.in/j4Km.jpg" width="100%" height="auto" />
 <img src="https://imgdb.in/j4Ko.jpg" width="100%" height="auto" />
+<img src="https://imgdb.in/j4Ks.jpg" width="100%" height="auto" />
+<img src="https://imgdb.in/j4Ku.jpg" width="100%" height="auto" />
 
 ## Technology used
 
