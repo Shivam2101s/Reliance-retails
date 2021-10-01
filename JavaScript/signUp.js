@@ -1,6 +1,5 @@
-
 let forms = document.getElementById("detail");
-let inpBtn = document.getElementById('submit')
+let inpBtn = document.getElementById("submit");
 
 function goToHome() {
   window.location.assign("../RelianceLandingPage.html");
@@ -17,18 +16,18 @@ forms.addEventListener("submit", function (e) {
   } else if (m_num.length === 0) {
     d.textContent = "The Mobile Number field is Required !";
   } else if (m_num.length == 10) {
-    inpBtn.style.background ="green"
+    inpBtn.style.background = "green";
 
     let info = {
       m_num,
-      city
-    }
+      city,
+    };
 
-    localStorage.setItem('userInfo',JSON.stringify(info))
+    localStorage.setItem("userInfo", JSON.stringify(info));
     window.location.assign("./profile.html");
   }
 });
 
 function goToProfile() {
-    window.location.assign("./profile.html");
-  };
+  window.location.assign("./profile.html");
+}

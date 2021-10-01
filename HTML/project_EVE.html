@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Relianace Retail</title>
+    <link
+      rel="icon"
+      href="../Images/kisspng-jamnagar-naroda-reliance-industries-reliance-petro-5aed662416c204.1222506815255076200932.png"
+      type="image/icon type"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../CSS/project_EVE.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="body">
+      <!-- Header starts -->
+      <header>
+        <div class="logo" onclick="goToHome()">
+          <img src="https://relianceretail.com/img/logo.png" alt="" />
+        </div>
+        <div class="navLink">
+          <li
+            id="active"
+            onmouseover="showAbout()"
+            onmouseleave="endAbout()"
+            class="navbar-links nav-li"
+          >
+            <a href="javascript:void(0)">About Us</a>
+            <div class="aboutus-container">
+              <div class="nav-inner">
+                <div class="nav-inner-1">
+                  <img
+                    class="nav-img"
+                    src="https://relianceretail.com/img/menu-aboutimg.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="nav-inner-2">
+                  <div class="head_title">OUR BUSINESS</div>
+                  <div class="head-text">
+                    Since its inception in 2006, Reliance Retail has grown to
+                    become India’s largest retailer delivering superior value to
+                    its customers, suppliers and shareholders
+                  </div>
+                </div>
+                <div class="nav-inner-3">
+                  <a href="" class="inner-link">&gt;&nbsp; Our Business </a>
+                  <a href="" class="inner-link">&gt;&nbsp; Key Facts</a>
+                  <a href="" class="inner-link">&gt;&nbsp; Milestones</a>
+                </div>
+                <div class="nav-inner-4">
+                  <a href="" class="inner-link"
+                    >&gt;&nbsp; Awards & Recognition</a
+                  >
+                  <a href="" class="inner-link">&gt;&nbsp; About RIL</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li
+            onmouseover="showBrands()"
+            onmouseleave="endBrands()"
+            class="navbar-links nav-li"
+          >
+            <a href="javascript:void(0)">Our Brands</a>
+            <div class="ourbrands-container">
+              <div class="nav-inner">
+                <div class="abt-inner-1">
+                  <img
+                    class="nav-img"
+                    src="https://relianceretail.com/img/menu-brandimg.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="abt-inner-2">
+                  <div class="head_title">OUR BRANDS</div>
+                  <div class="head-text">
+                    Reliance Retail operates chain of convenience stores,
+                    supermarkets, specialty and online stores providing choice,
+                    convenience and superior value.
+                  </div>
+                </div>
+                <div class="abt-inner-3">
+                  <a href="./reliance_fresh.html" class="inner-link"
+                    >&gt;&nbsp; Reliance Fresh</a
+                  >
+                  <a href="./reliance_smart.html" class="inner-link"
+                    >&gt;&nbsp; Reliance Smart</a
+                  >
+                  <a href="./reliance_smart.html" class="inner-link"
+                    >&gt;&nbsp; Reliance Smart Point</a
+                  >
+                  <a href="./jio_mart.html" class="inner-link">&gt;&nbsp; Jio Mart</a>
+                  <a href="./jio_store.html" class="inner-link">&gt;&nbsp; Reliance Digital</a>
+                </div>
+                <div class="abt-inner-4">
+                  <a href="./jio_store.html" class="inner-link">&gt;&nbsp; Jio Store</a>
+                  <a href="./reliance_trends.html" class="inner-link">&gt;&nbsp; Reliance Trends</a>
+                  <a href="./project_EVE.html" class="inner-link">&gt;&nbsp; Project Eve</a>
+                  <a href="./trends_footwear.html" class="inner-link">&gt;&nbsp; Trends Footware</a>
+                  <a href="./reliance_jewels.html" class="inner-link">&gt;&nbsp; Reliance Jewels</a>
+                </div>
+                <div class="abt-inner-5">
+                  <a href="./AJIO.html" class="inner-link">&gt;&nbsp; AJIO</a>
+                  <a href="./Hamleys.html" class="inner-link">&gt;&nbsp; Hamleys</a>
+                  <a href="#" class="inner-link">&gt;&nbsp; Reliance Brands</a>
+                  <a href="#" class="inner-link">&gt;&nbsp; Reliance Mall</a>
+                  <a href="#" class="inner-link">&gt;&nbsp; Reliance Consumer</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li
+            onmouseover="showInvestor()"
+            onmouseleave="endInvestor()"
+            class="navbar-links nav-li"
+          >
+            <a href="javascript:void(0)">Investor Relations</a>
+            <div class="investor-container" id="inv-con">
+              <div class="inv-box">
+                <div class="inv-inner-1">
+                  <img
+                    src="https://relianceretail.com/img/menu-investorimg.jpg"
+                    class="inv-img"
+                  />
+                </div>
+                <div class="inv-inner-2">
+                  <div class="inv-head">INVESTOR RELATIONS</div>
+                  <div class="inv-text">
+                    Stay up to date with all of the latest news updates from
+                    Reliance Retail
+                  </div>
+                </div>
+                <div class="inv-inner-3">
+                  <a href="" class="inner-link"
+                    >&gt;&nbsp; RRVL Investor Relations</a
+                  >
+                  <a href="" class="inner-link"
+                    >&gt;&nbsp; RRL Investor Relations</a
+                  >
+                </div>
+              </div>
+            </div>
+          </li>
+          <li
+            onmouseover="showCareer()"
+            onmouseleave="endCareer()"
+            class="navbar-links nav-li"
+          >
+            <a href="javascript:void(0)">Careers</a>
+            <div class="career-container">
+              <div class="inv-box">
+                <div class="inv-inner-1">
+                  <img
+                    src="https://relianceretail.com/img/menu-careerimg.jpg"
+                    class="inv-img"
+                  />
+                </div>
+                <div class="inv-inner-2">
+                  <div class="inv-text">
+                    At Reliance Retail, we are committed to creating one of the
+                    world's most people-friendly, performance-driven, and
+                    process-efficient learning organisation, where the best and
+                    the brightest work together to create a responsive,
+                    respectful and delightful work environment.
+                  </div>
+                </div>
+                <div class="inv-inner-3">
+                  <a href="" class="inner-link">&gt;&nbsp; Apply Now</a>
+                  <a href="" class="inner-link">&gt;&nbsp; RBL Careers</a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <a class="location-link" href=""
+            >Store Location
+            <span><i id="locationIcon" class="fas fa-map-marker-alt"></i></span
+          ></a>
+        </div>
+      </header>
+
+      <!-- Header Ends Here -->
+
+      <div id="top_image">
+        <img
+          src="https://relianceretail.com/img/page-banner/projecteve_banner.jpg"
+        />
+      </div>
+      <div id="starting_menu">
+        <h2>PROJECT EVE</h2>
+
+        <nav id="navigator">
+          <a href="../RelianceLandingPage.html">Home</a> &nbsp;
+          &nbsp;/&nbsp;&nbsp;&nbsp;
+          <a href="javascript:void(0)">Our Brands</a>
+          &nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+          <span>Project Eve</span>
+        </nav>
+      </div>
+
+      <div id="middle_part">
+        <div class="top_content">
+          <img
+            src="https://relianceretail.com/img/brands/larg/ril-project-eve.png"
+          />
+        </div>
+        <div class="content">
+          <p>
+            Project Eve is a unique concept focused on serving independent and
+            sophisticated women in the age group of 25-40. In a pioneering
+            effort that redefines the shopping experience of Indian women,
+            Project Eve launched its first flagship store in Mumbai in June
+            2017. The unique experiential retail chain is the destination store
+            which is built around the women to provide nearly everything that a
+            woman needs to look & feel good.
+          </p>
+          <p>
+            Built with a mission to constantly create new and innovate, the
+            store offers impeccable experience through its elegant ambience,
+            in-store salon, café, personal stylist, plush trial rooms with
+            lounge area along with a curated collection in apparel and beauty.
+            Apparel collection in Indian and Western wear includes Handpicked
+            brands, own label – Project Eve and an exclusive designer collection
+            by Rahul Mishra. The store also houses ‘Swadesh’, the exclusive
+            brand with traditional handcrafted merchandise.
+          </p>
+          <p>
+            Project Eve is crafted especially around women - to celebrate her.
+            Every aspect of the store speaks loudly for women, may it be the
+            collection with limited sizes for exclusivity, discovery based aisle
+            structure, international experience & ambience, high street store
+            staff or minute detailing like twin trial room, charging dockets and
+            express check out at beauty section. The spacious trial rooms have
+            been thoughtfully designed to pamper women with elegance including
+            detailing like side tables, seating space and light modes for day
+            and evening looks.
+          </p>
+        </div>
+
+        <div id="overlap_div">
+          <div class="overlap_img">
+            <img src="https://relianceretail.com/img/brands/project-eve.jpg" />
+          </div>
+          <div class="overlap_list">
+            <ul class="list">
+              <li class="active">
+                <a href="./reliance_fresh.html">Reliance Fresh</a>
+              </li>
+              <li><a href="./reliance_smart.html">Reliance Smart</a></li>
+              <li><a href="./reliance_smart.html">Reliance Smart Point</a></li>
+              <li><a href="./jio_mart.html">Jio Mart</a></li>
+              <li><a href="./jio_store.html">Reliance Digital</a></li>
+              <li><a href="./jio_store.html">Jio Stores</a></li>
+              <li><a href="./reliance_trends.html">Reliance Trends</a></li>
+              <li><a href="./project_EVE.html">Project Eve</a></li>
+              <li><a href="./trends_footwear.html">Trends Footwear</a></li>
+              <li><a href="./reliance_jewels.html">Reliance Jewels</a></li>
+              <li><a href="./AJIO.html">AJIO</a></li>
+              <li><a href="./Hamleys.html">Hamleys</a></li>
+              <li><a href="#">Reliance Brands</a></li>
+              <li><a href="#">Reliance Mall</a></li>
+              <li><a href="#">Reliace Consumer Brands</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+ <!-- Footer Starts Here -->
+
+    <div class="bottombox">
+      <div class="innerEle">
+        <div class="f-links1">
+          <div class="f-heading">About Us</div>
+          <a href="">Our Business</a>
+          <a href="">Key Facts</a>
+          <a href="">Milestones</a>
+          <a href="">Awards & Recognition</a>
+          <a href="">About RIL</a>
+        </div>
+        <div class="f-links2">
+          <div class="f-heading">Our Brands</div>
+          <div class="f-links-div">
+            <div class="f-links-div1">
+              <a href="./reliance_fresh.html">Reliance Fresh</a>
+              <a href="./reliance_smart.html">Reliance Smart</a>
+              <a href="./reliance_smart.html">Reliance Smart Point</a>
+              <a href="./jio_mart.html">JioMart</a>
+              <a href="./jio_store.html">Reliance Digital</a>
+              <a href="./jio_store.html">Jio Store</a>
+              <a href="./reliance_trends.html">Reliance Trends</a>
+              <a href="#">Reliance Consumer Brands</a>
+            </div>
+            <div class="f-links-div2">
+              <a href="./project_EVE.html">Project Eve</a>
+              <a href="./trends_footwear.html">Trends Footwear</a>
+              <a href="./reliance_jewels.html">Reliance Jewels</a>
+              <a href="./AJIO.html">AJIO</a>
+              <a href="./Hamleys.html">Hamleys</a>
+              <a href="#">Reliance Brands</a>
+              <a href="#">Reliance Mall</a>
+            </div>
+          </div>
+        </div>
+        <div class="f-links3">
+          <div class="f-heading">Careers</div>
+          <a href="">Apply Now</a>
+          <div class="f-heading f-headin-invest">Investor Relations</div>
+          <a href="">RRVL Investor Relations</a>
+          <a href="">RRL Investor Relations</a>
+          <div class="f-heading f-headin-invest">Store Locator</div>
+        </div>
+        <div class="f-links4">
+          <div class="f-heading">Reach Us</div>
+          <p>Customer Care: 1800 891 0001 / 1800 102 7382</p>
+          <p>Customer Service e-mail: customerservice@ril.com</p>
+        </div>
+      </div>
+    </div>
+
+ <!-- Footer Ends Here -->
+
+    <div class="scrollToTop">
+      <button onclick="topFunction()"><i class="fas fa-chevron-up"></i></button>
+    </div>
+
+    <footer>
+      <div>© Reliance Retail. All rights reserved.</div>
+      <a href="javascript:void(0)">Privacy Policy</a>
+    </footer>
+    <script src="../JavaScript/project_EVE.js"></script>
+  </body>
+</html>

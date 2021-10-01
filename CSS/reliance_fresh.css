@@ -2,19 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
 }
-body {
-  line-height: 1.5;
-  color: #9b9b9b;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: sans-serif;
-}
-
 /* Nav Bar */
 
 header {
+  z-index: 1;
   width: 100%;
   height: 85px;
   position: sticky;
@@ -103,23 +95,23 @@ header {
 .active:hover {
   display: inline-block;
 }
-li {
+.nav-li {
   list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-li:nth-child(1) > a {
+.nav-li:nth-child(1) > a {
   text-decoration: none;
   color: white;
   padding: 15px;
 }
-li > a {
+.nav-li > a {
   text-decoration: none;
   color: #333;
   padding: 25px;
 }
-li a:hover {
+.nav-inner-1 a:hover {
   color: white;
 }
 .navbar-links > li:hover {
@@ -232,91 +224,6 @@ li a:hover {
   font-weight: 600px;
 }
 /* Nav Bar */
-
-/* SlideShow */
-
-.slideshow {
-  width: 100%;
-  height: 790px;
-  /* border: 1px solid red; */
-  background: url(/Images/slideshow.jpg);
-}
-
-/* SlideShow */
-
-/* middle div */
-
-.container {
-  width: 100%;
-  height: 600px;
-  padding: 50px 0;
-}
-.account {
-  height: 40%;
-  width: 100%;
-  padding: 50px 0;
-}
-.about {
-  width: 78%;
-  margin: auto;
-  padding: 50px 0;
-  text-align: center;
-  font-size: 18px;
-  color: #333;
-}
-.about > h1 {
-  margin-bottom: 60px;
-}
-.about > a {
-  color: #0083bd;
-  text-decoration: none;
-}
-.acc-btn {
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-}
-.btn {
-  background: #bc2824;
-  color: white;
-  width: 85px;
-  height: 30px;
-  font-size: 16px;
-  border: none;
-  text-decoration: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.heading {
-  color: #bd2925;
-  font-weight: 600;
-  text-align: center;
-  font-size: 25px;
-  font-weight: 700px;
-}
-
-/* middle div */
-
-/* brands */
-
-.brands-box {
-  width: 100%;
-  height: 500px;
-  /* border: 1px solid red; */
-  padding: 10px;
-}
-
-.dummy {
-  height: auto;
-  width: auto;
-
-  margin-left: 4%;
-}
-/* brands */
 
 /* bottom div */
 
@@ -439,3 +346,116 @@ footer > a {
 }
 
 /* slide bar */
+
+#body {
+  font-family: "Roboto", sans-serif;
+}
+#top_image {
+  height: 280px;
+}
+#top_image > img {
+  width: 100%;
+  height: 280px;
+}
+#starting_menu {
+  position: absolute;
+  top: 35vh;
+  left: 0vh;
+  height: 80px;
+  width: 600px;
+  /* padding:20px 90px ; */
+  border-bottom: 100px solid rgb(255, 255, 255);
+  border-left: 0px solid transparent;
+  border-right: 60px solid transparent;
+}
+
+#starting_menu > h2 {
+  font-size: 25px;
+  color: #004785;
+  margin-bottom: 0;
+  margin-top: 40px;
+  margin-left: 110px;
+}
+#navigator {
+  margin-top: 5px;
+  margin-left: 110px;
+}
+#navigator > a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #004785;
+}
+#navigator > a:hover {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+}
+#navigator > span {
+  text-decoration: none;
+  font-size: 15px;
+  color: #777777;
+}
+#middle_part {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.top_content {
+  /* border: 1px solid red; */
+}
+.top_content > img {
+  margin-left: 29%;
+  margin-top: 3%;
+  margin-bottom: 15px;
+}
+.content {
+  /* border: 1px solid yellow; */
+  height: 580px;
+  background-color: #f6f6f6;
+}
+.content p {
+  margin-left: 29%;
+  margin-right: 8%;
+  margin-top: 10px;
+  line-height: 1.5;
+  padding: 10px;
+}
+#overlap_div {
+  width: 250px;
+  height: 700px;
+  background-color: red;
+  position: absolute;
+  left: 28vh;
+  top: 51vh;
+}
+.overlap_img {
+  width: 250px;
+  height: 130px;
+  /* border: 1px solid green; */
+}
+.overlap_img > img {
+  width: 100%;
+  height: 150px;
+}
+.overlap_list {
+  width: 250px;
+  height: 550px;
+  /* border: 1px solid yellow; */
+  background-image: url("https://relianceretail.com/img/red-patterns.jpg");
+  background-repeat: repeat-x repeat-y;
+}
+
+.list {
+  list-style-type: none;
+  padding: 5%;
+  margin: 20px 10px;
+}
+.list li {
+  margin-bottom: 15px;
+}
+.list > li:hover {
+  font-weight: bold;
+}
+.list a {
+  text-decoration: none;
+  color: white;
+}
