@@ -13,3 +13,15 @@ Link to visit site:- https://relianceretailclone.netlify.app
 ## Technology used
 
 <img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-devextreme-multi-purpose-controls-html-javascript-3.png" width="30%" height="100px" />
+
+## Functionality
+* Sign In, Sign Up
+* Profile Page
+* Corousel
+* Dropdown navigation bar
+
+## Contributed by
+* Shivam Sharma:- Landing Page, Sign In, Sign Up, Profile Page, Brand pages. 
+* Mohit Solanki:- About page, Brand pages.    
+* Shakib Jilani:- Slideshow
+* Saravanan Muthusamy:- Corousel
