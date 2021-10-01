@@ -1,5 +1,5 @@
 function goToHome() {
-  window.location.assign("../RelianceLandingPage.html");
+  window.location.assign("../index.html");
 }
 
 let userDetails = JSON.parse(localStorage.getItem("userInfo"));

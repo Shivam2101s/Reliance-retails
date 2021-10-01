@@ -2,7 +2,7 @@ let forms = document.getElementById("detail");
 let inpBtn = document.getElementById("submit");
 
 function goToHome() {
-  window.location.assign("../RelianceLandingPage.html");
+  window.location.assign("../index.html");
 }
 
 forms.addEventListener("submit", function (e) {

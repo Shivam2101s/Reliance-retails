@@ -50,5 +50,5 @@ function topFunction() {
 // Go to home page
 
 function goToHome() {
-  window.location.assign("./RelianceLandingPage.html");
+  window.location.assign("./index.html");
 }
