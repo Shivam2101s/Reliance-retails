@@ -311,8 +311,9 @@ li a:hover {
 .dummy {
   height: auto;
   width: auto;
-
-  margin-left: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* brands */
 
