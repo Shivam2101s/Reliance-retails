@@ -37,7 +37,7 @@ header {
   text-decoration: none;
   height: 100%;
   display: flex;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: normal;
   outline: 0;
   align-items: center;
@@ -358,7 +358,7 @@ footer > a {
 }
 #starting_menu {
   position: absolute;
-  top: 40vh;
+  top: 37vh;
   left: 0vh;
   height: 80px;
   width: 600px;
@@ -422,7 +422,7 @@ footer > a {
   background-color: red;
   position: absolute;
   left: 20vh;
-  top: 60vh;
+  top: 55vh;
 }
 .overlap_img {
   width: 270px;
