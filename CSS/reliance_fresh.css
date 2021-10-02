@@ -362,10 +362,9 @@ footer > a {
   left: 0vh;
   height: 80px;
   width: 600px;
-  /* padding:20px 90px ; */
   border-bottom: 100px solid rgb(255, 255, 255);
   border-left: 0px solid transparent;
-  border-right: 60px solid transparent;
+  border-right:60px solid transparent;
 }
 
 #starting_menu > h2 {
