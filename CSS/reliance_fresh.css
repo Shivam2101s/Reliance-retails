@@ -34,11 +34,10 @@ header {
 }
 .navLink > a {
   width: auto;
-  line-height: 85px;
   text-decoration: none;
   height: 100%;
   display: flex;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: normal;
   outline: 0;
   align-items: center;
@@ -359,7 +358,7 @@ footer > a {
 }
 #starting_menu {
   position: absolute;
-  top: 35vh;
+  top: 40vh;
   left: 0vh;
   height: 80px;
   width: 600px;
@@ -399,17 +398,15 @@ footer > a {
   margin-top: 40px;
   margin-bottom: 50px;
 }
-.top_content {
-  /* border: 1px solid red; */
-}
+
 .top_content > img {
   margin-left: 29%;
   margin-top: 3%;
   margin-bottom: 15px;
 }
 .content {
-  /* border: 1px solid yellow; */
-  height: 580px;
+ 
+  height: 700px;
   background-color: #f6f6f6;
 }
 .content p {
@@ -420,15 +417,15 @@ footer > a {
   padding: 10px;
 }
 #overlap_div {
-  width: 250px;
+  width: 270px;
   height: 700px;
   background-color: red;
   position: absolute;
-  left: 28vh;
-  top: 51vh;
+  left: 20vh;
+  top: 60vh;
 }
 .overlap_img {
-  width: 250px;
+  width: 270px;
   height: 130px;
   /* border: 1px solid green; */
 }
@@ -437,7 +434,7 @@ footer > a {
   height: 150px;
 }
 .overlap_list {
-  width: 250px;
+  width: 270px;
   height: 550px;
   /* border: 1px solid yellow; */
   background-image: url("https://relianceretail.com/img/red-patterns.jpg");
