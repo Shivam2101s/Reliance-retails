@@ -23,7 +23,7 @@ Link to visit site:- https://relianceretailclone.netlify.app
 * Dropdown navigation bar
 
 ## Contributed by
-* Shivam Sharma:- Landing Page, Sign In, Sign Up, Profile Page, Brand pages. 
-* Mohit Solanki:- About page, Brand pages.    
+* Shivam Sharma:- Landing Page, Sign Up, Profile Page, Brand pages. 
+* Mohit Solanki:- About page, Sign In, Brand pages.    
 * Shakib Jilani:- Slideshow
 * Saravanan Muthusamy:- Corousel
