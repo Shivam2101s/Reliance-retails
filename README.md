@@ -6,11 +6,11 @@ Reliance Retail is the retail initiative of Reliance Industries Limited and is c
 Link to visit site:- https://relianceretailclone.netlify.app
 
 ## Some glimpse of the project
-<img src="https://imgdb.in/j4Kk.jpg" width="100%" height="auto" />
-<img src="https://imgdb.in/j4Km.jpg" width="100%" height="auto" />
-<img src="https://imgdb.in/j4Ko.jpg" width="100%" height="auto" />
-<img src="https://imgdb.in/j4Ks.jpg" width="100%" height="auto" />
-<img src="https://imgdb.in/j4Ku.jpg" width="100%" height="auto" />
+<img src="https://imgdb.in/j8hq.jpg" width="100%" height="auto" />
+<img src="https://imgdb.in/j8hs.jpg" width="100%" height="auto" />
+<img src="https://imgdb.in/j8ht.jpg" width="100%" height="auto" />
+<img src="https://imgdb.in/j8hu.jpg" width="100%" height="auto" />
+<img src="https://imgdb.in/j8hv.jpg" width="100%" height="auto" />
 
 ## Technology used
 
