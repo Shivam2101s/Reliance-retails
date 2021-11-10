@@ -1,0 +1,6 @@
+#cart_container{
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    grid-gap: 2%;
+    
+}
