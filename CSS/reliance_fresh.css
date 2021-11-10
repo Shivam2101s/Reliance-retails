@@ -17,12 +17,12 @@ header {
 .logo {
   width: 115px;
   height: 85px;
-  margin-left: 13%;
+  margin-left: 8%;
   float: left;
 }
 .logo > img {
-  width: 125px;
-  height: 89px;
+  width: 115px;
+  height: 85px;
 }
 
 .navLink {
