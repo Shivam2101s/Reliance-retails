@@ -8,13 +8,17 @@ Link to visit site:- https://relianceretailclone.netlify.app
 ## Some glimpse of the project
 ### Landing Page:
 <img src="https://github.com/Shivam2101s/images/blob/main/reliance(1)%20-%20Copy.jpg?raw=true" width="100%" height="auto" />
+
 ### Navbar:
 <img src="https://github.com/Shivam2101s/images/blob/main/reliance%20retail/navbar.jpg?raw=true" width="100%" height="auto" />
+
 ### Signin/Signup:
 <img src="https://github.com/Shivam2101s/images/blob/main/reliance%20retail/login.jpg?raw=true" width="100%" height="auto" />
+
 ### Brand pages:
 <img src="https://github.com/Shivam2101s/images/blob/main/reliance%20retail/jewels.jpg?raw=true" width="100%" height="auto" />
 <img src="https://github.com/Shivam2101s/images/blob/main/reliance%20retail/project%20eve.jpg?raw=true" width="100%" height="auto" />
+
 ###  Corousel:
 <img src="https://github.com/Shivam2101s/images/blob/main/reliance%20retail/crousel.jpg?raw=true" width="100%" height="auto" />
 
