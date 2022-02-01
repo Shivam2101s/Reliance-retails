@@ -248,6 +248,7 @@ function add_to_cart(item) {
   if (count > 0) {
     alert("product already there in cart");
   } else {
+    alert("Product successfully added to cart");
     product_cart.push(item);
   }
 
