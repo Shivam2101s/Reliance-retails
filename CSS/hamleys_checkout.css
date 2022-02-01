@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* Header */
+
+header {
+  height: 90px;
+  background-color: #cf102d;
+  display: flex;
+  padding: 1% 6%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* BODY */
+
+#container {
+
+ 
+  display: flex;
+  flex-direction: row;
+}
+
+#address {
+  width: 60%;
+  padding:3% 10%;
+  background-color: #fcf3ec;
+}
+
+#addHead {
+  font-size: 30px;
+  font-weight: bold;
+  margin:20px 0;
+}
+.addForm {
+ display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+}
+
+.addForm label {
+    font-size: 18px;
+    font-weight:100;
+}
+
+.addForm input {
+    width: 80%;
+    height: 60px;
+    outline: none;
+    padding:5px 15px ;
+    font-size: 18px;
+    border-radius: 30px;
+    border: none;
+    border-top: 3px solid #d4d4d4;
+    border-left: 3px solid #d4d4d4;
+}
+
+#submitBtn {
+
+    width: 30%;
+    margin: 3% 25%;
+    background-color: white;
+    border-bottom: 5px solid #cf102d;
+    border-top: 2px solid #cf102d;
+    border-left: 2px solid #cf102d;
+    border-right: 5px solid #cf102d;
+}
+
+#checkout {
+width: 40%;
+padding:4% 2%;
+}
+
+
+#amount {
+width: 95%;
+
+margin: auto;
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+
+#total {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 3px solid #d4d4d4;
+    gap: 10px;
+  }
+  #total p {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  #coupon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+  }
+  
+  #coupon input {
+    width: 85%;
+    height: 70px;
+    padding: 5px 20px;
+    font-size: 20px;
+    border-radius: 35px;
+    outline: none;
+    border-top:2px solid gray;
+    border-left:2px solid gray;
+    border-bottom: 5px solid gray;
+    border-right: 5px solid gray;
+  }
+  #couponBtn {
+    width: 12%;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 20px;
+  }
+
+#logo { 
+margin-left: 210%;
+  }

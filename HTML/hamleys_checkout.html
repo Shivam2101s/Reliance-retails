@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Hamleys®️ Toy Store - Buy Toys for Kids &amp; Children Games Online in
+        India
+      </title>
+      <link
+        rel="icon"
+        href="https://seeklogo.com/images/H/hamleys-toy-shop-london-logo-A2C71148CA-seeklogo.com.png"
+      />
+    <link rel="stylesheet" href="../CSS/hamleys_checkout.css">
+</head>
+<body>
+    <header>
+        <a href="../HTML/hamleys_cart.html"><i class="fas fa-angle-left"></i> Back to your bag</a>
+        <img src="https://hamleysgumletfront.gumlet.io/_nuxt/img/logo.903d661.png" alt="">
+        <a href="">Secure checkout</a>
+    </header>
+    <div id = "container">
+     <div id="address">
+         <p id="addHead">New address</p>
+        <form onsubmit="payment()" class="addForm">
+        <label for="name">Name*</label>
+        <input type="text" id="name" placeholder="Enter your name*" name="name" required/>
+        <label for="street">Street address*</label>
+        <input type="text" id="street" placeholder="Enter your address*" required/>
+        <label for="pin">Pincode*</label>
+        <input type="number" id="pin" placeholder="Enter your pincode*" required/>
+        <label for="city">City*</label>
+        <input type="text" id="city" placeholder="Enter your city*" required/>
+        <label for="state">State*</label>
+        <input type="text" id="state" placeholder="Enter your state*" required/>
+        <label for="mobile">Receiver mobile number*</label>
+        <input type="tel" id="mobile"  maxlength="10" placeholder="Enter receiver mobile number*" required/> 
+        <label for="email">Email*</label>
+        <input type="email" id="email" placeholder="Enter your email*" required/>
+        <label for="card">Card number*</label>
+        <input type="tel" maxlength="16"  pattern="\d*"  placeholder="Enter card number*">
+        <label for="month">Expiry date*</label>
+        <input type="month" id="month" placeholder="MM / YYYY" required/>
+        <label for="cvv">CVV*</label>
+        <input type="tel" maxlength="3" placeholder="cvv*" required/>
+        <input type="submit" id="submitBtn" value="Proceed to pay">       
+        </form> 
+        <img id="logo" src="https://hamleysgumletfront.gumlet.io/_nuxt/img/red-h-logo.4b642ab.png" alt="">      
+     </div>
+     <div id = "checkout">
+         <div id = "amount">
+            <div id="total"></div>
+            <div id="coupon">
+              <input type="text" id="promo" placeholder="Apply voucher code" />
+              <button id="couponBtn"><i class="fas fa-play"></i></button>
+            </div>
+         </div>
+       
+
+      
+     </div> 
+         
+    </div>  
+</body>
+</html>
+     
+<script
+  src="https://kit.fontawesome.com/42d66f70eb.js"
+  crossorigin="anonymous"
+></script>
+
+<script src="../JavaScript/hamleys_checkout.js"></script>

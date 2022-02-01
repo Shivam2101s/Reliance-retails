@@ -299,6 +299,20 @@ header {
 .f-headin-invest {
   margin-top: 20px;
 }
+.visitweb_Btn {
+  padding: 8px 15px;
+  color: white;
+  background-color: #bd2925;
+  border: none;
+  margin-left: 29.5%;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.visitweb_Btn:hover{
+  background-color: #c23934;
+  cursor: pointer;
+}
 
 /* bottom div */
 

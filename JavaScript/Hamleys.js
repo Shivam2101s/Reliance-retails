@@ -52,3 +52,9 @@ function topFunction() {
 function goToHome() {
   window.location.assign("../index.html");
 }
+
+// Open hamleys website 
+
+function openHamleys() {
+  window.location.assign("../HTML/hamleys_home.html")
+}
