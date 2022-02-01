@@ -31,6 +31,7 @@ Link to visit site:- https://relianceretailclone.netlify.app
 * Profile Page
 * Corousel
 * Dropdown navigation bar
+* Filter options 
 
 ## Contributed by
 * Shivam Sharma:- Landing Page, Sign Up, Profile Page, Brand pages. 
