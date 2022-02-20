@@ -7,20 +7,30 @@ Link to visit site:- https://relianceretailclone.netlify.app
 
 ## Some glimpse of the project
 
-# Landing Page
+## Landing Page
 
 <img src="https://github.com/Shivam2101s/images/blob/main/reliance%20retail/Homepage.jpg?raw=true" width="100%" height="auto" />
 <img src="https://github.com/Shivam2101s/images/blob/main/reliance%20retail/navbar.jpg?raw=true" width="100%" height="auto" />
-# Login Page
+
+## Login Page
+
 <img src="https://github.com/Shivam2101s/images/blob/main/reliance%20retail/login.jpg?raw=true" width="100%" height="auto" />
-# Brand Pages
+
+## Brand Pages
+
 <img src="https://github.com/Shivam2101s/images/blob/main/reliance%20retail/project%20eve.jpg?raw=true" width="100%" height="auto" />
 <img src="https://github.com/Shivam2101s/images/blob/main/reliance%20retail/jewels.jpg?raw=true" width="100%" height="auto" />
-# Hamleys Homepage
+
+## Hamleys Homepage
+
 <img src="https://github.com/Shivam2101s/images/blob/main/reliance%20retail/hamleys_home.jpg?raw=true" width="100%" height="auto" />
-# Hamleys Cart Page
+
+## Hamleys Cart Page
+
 <img src="https://github.com/Shivam2101s/images/blob/main/reliance%20retail/hamleys_cart.jpg?raw=true" width="100%" height="auto" />
-# Hamleys Checkout Page
+
+## Hamleys Checkout Page
+
 <img src="https://github.com/Shivam2101s/images/blob/main/reliance%20retail/hamleys_checkout.jpg?raw=true" width="100%" height="auto" />
 
 ## Technology used
